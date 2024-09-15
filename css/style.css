@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+	font-family: "Prompt";
+}
+
+body {
+	font-family: "Prompt", sans-serif;
+	font-size: 16px;
+	color: #000;
+}
+
+header {
+	background-color: #171717;
+}
+
+#acerca {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: lightgray;
+}
+
+#acerca h1 {
+	font-weight: 700;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#acerca p {
+	font-weight: 500;
+	font-size: 20px;
+	text-align: center;
+	padding: 5px 40px;
+}
+
+.acercaimg {
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#servicios {
+	background-color: #1A1A1A;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+#servicios h1 {
+	font-weight: 700;
+	text-align: center;
+	padding-top: 10px;
+	margin-bottom: 30px;
+	color: #76BA5F;
+}
+
+#servicios .tarjeta {
+	border: #76BA5F thick solid; 
+	padding: 40px 30px;
+	text-align: center;
+	border-radius: 10px;
+	margin: 10px 0px;
+}
+
+#servicios .tarjeta:hover {
+	background-color: #122F08;
+	transition: all 0.3s ease-in-out;
+}
+
+#servicios .tarjeta h3 {
+	font-weight: 600;
+	color: #fff;
+}
+
+#servicios .tarjeta p {
+	font-weight: 400;
+	color: #fff;
+}
+
+#servicios .fa-solid {
+	color: #fff;
+	font-size: 40px;
+	margin-bottom: 15px;
+}
+
+#portafolio {
+	background-image: url("../img/pexels-photo-998641.jpeg");
+	background-attachment: fixed;
+	background-size: cover;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+#portafolio h1 {
+	color: #fff;
+	text-align: center;
+	font-weight: 700;
+	
+}
+
+#portafolio img {
+	border: 5px #FFFFFF solid;
+	border-radius: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#portafolio h3 {
+	color: #fff;
+	font-weight: 700;
+}
+
+#contacto {
+	background-color: #242424;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+#contacto h1 {
+	color: #fff;
+	font-weight: 700;
+}
+
+#contacto p {
+	color: #fff;
+	margin: 10px 40px;
+	
+}
+
+#contacto p:hover {
+	color: #76BA5F;
+	font-size: 20px;
+	transition: all 0.2s ease-in-out;
+}
+
+#contacto .fa-solid {
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	margin: 10px 10px;
+}
+
+#contacto .fa-brands {
+	color: #fff;
+	font-size: 40px;
+	margin: 10px 10px;
+}
+
+footer {
+	background-color: #2E4325;
+	padding: 20px 0px;
+}
+
+footer h5 {
+	color: #fff;
+	text-align: center;
+	
+}
