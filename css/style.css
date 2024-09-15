@@ -62,7 +62,7 @@ header {
 }
 
 #servicios .tarjeta:hover {
-	background-color: #122F08;
+	background-color: #3E6830;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -100,8 +100,8 @@ header {
 #portafolio img {
 	border: 5px #FFFFFF solid;
 	border-radius: 10px;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin: 10px 0px;
+	align-content: center;
 }
 
 #portafolio h3 {
